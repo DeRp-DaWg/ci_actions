@@ -18,7 +18,6 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author thomas
  */
 public class MyFunctionalityTest {
-
     public MyFunctionalityTest() {
     }
 
@@ -38,15 +37,10 @@ public class MyFunctionalityTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of getTen method, of class MyFunctionality.
-     */
+    // Test of getTen method, of class MyFunctionality.
     @Test
     public void testGetTen() {
-
         MyFunctionality instance = new MyFunctionality();
         assertEquals(10, instance.getTen());
-
     }
-
 }
